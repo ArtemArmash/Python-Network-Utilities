@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+env/
+# You might also ignore specific virtual environment management files if not using a standard setup
+# For example, if using 'uv':
+# uv.lock
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Environment variables
+.env
+
+# Database files
+*.sqlite3
+*.db
+
+# Test coverage
+.coverage
+.tox/
+
+# Installer files
+dist/
+build/
+*.egg

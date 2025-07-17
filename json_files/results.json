@@ -1,0 +1,28 @@
+{
+    "description": "Scan targets for today",
+    "targets": [
+        {
+            "hostname": "scanme.nmap.org",
+            "ports": {
+                "22": "open",
+                "80": "open",
+                "443": "closed"
+            }
+        },
+        {
+            "hostname": "github.com",
+            "ports": {
+                "80": "open",
+                "443": "open"
+            }
+        },
+        {
+            "hostname": "192.168.1.1",
+            "ports": {
+                "53": "closed",
+                "80": "open",
+                "8080": "closed"
+            }
+        }
+    ]
+}
